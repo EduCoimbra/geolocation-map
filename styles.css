@@ -1,5 +1,16 @@
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+main{
+  height: 100vh - 150px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 div{
@@ -8,4 +19,18 @@ div{
   margin-top: 10px;
   padding: 5px;
   background-color: rgb(31, 185, 134);
+}
+
+button{
+  padding: 10px 20px;
+  background-color: crimson;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 2px black;
+  font-weight: bold;
+}
+button:hover{
+  background-color: rgb(241, 39, 79);
 }
